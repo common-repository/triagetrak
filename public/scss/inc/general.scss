@@ -1,0 +1,687 @@
+@import "variables";
+
+/*labels for IE*/
+body {
+    label.ie_label {
+        padding: 0 !important;
+    }
+
+    .select2-container--open {
+        .select2-results__options .select2-results__option {
+            text-align: left;
+        }
+    }
+
+    .limit_titles {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .tt_doctor_block .limit_titles {
+        padding: 0 20px;
+    }
+}
+
+// preloader
+#tt_loading,
+#tt_loading_page {
+    position: absolute;
+    z-index: 5;
+    top: -2%;
+    right: 0;
+    bottom: 0;
+    left: -2%;
+    display: none;
+    width: 104%;
+    height: 104%;
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.6);
+
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin: auto !important;
+    }
+}
+
+// pagination
+.tt_load_more {
+    display: none;
+
+    img {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: 10px auto;
+    }
+}
+
+.tt_pagination-block #tt_paginate {
+    margin-top: 40px;
+    padding: 0;
+    text-align: center;
+
+    & > .active > a {
+        &:hover,
+        &:focus {
+            z-index: 2;
+            cursor: default;
+            color: $white !important;
+            background-color: $sickly-yellow;
+        }
+    }
+
+    .tt_dot {
+        line-height: 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        color: $black;
+        border: 1px solid $grey;
+    }
+
+    li {
+        display: inline-block;
+        list-style: none;
+
+        &:before,
+        &:after {
+            content: none;
+        }
+
+        a {
+            font-size: 16px;
+            line-height: 40px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            transition: background-color .4s;
+            text-decoration: none;
+            color: $black;
+            border: 1px solid $grey;
+            box-shadow: none;
+
+            &:hover {
+                color: $white !important;
+                background-color: $sickly-yellow;
+            }
+        }
+    }
+}
+
+.tt_main_page {
+    position: relative;
+    padding-bottom: 30px;
+
+    h3 {
+        margin: 10px 0 20px 0!important;
+    }
+
+    iframe {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tt_content {
+        line-height: 1.5;
+        position: relative;
+
+        h1, h2, h3, h4, h5 {
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            text-transform: none;
+            color: $black !important;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            font-weight: normal;
+        }
+
+        p {
+            font-weight: normal;
+            padding: 5px 0;
+        }
+
+        .tt_three_col,
+        .tt_doc_slider_col_3{
+            .tt_doctor_block{
+                .tt_doctor_img img {
+                    height: 350px;
+                }
+            }
+        }
+        .tt_four_col,
+        .tt_doc_slider_col_4{
+            .tt_doctor_block{
+                .tt_doctor_img img {
+                    height: 300px;
+                }
+            }
+        }
+        .tt_two_col,
+        .tt_doc_slider_col_2{
+            .tt_doctor_block{
+                .tt_doctor_img img {
+                    height: 400px;
+                }
+            }
+        }
+        .tt_one_col{
+            .tt_doctor_block{
+                .tt_doctor_img img {
+                    height: 350px;
+                }
+                .tt_doctor_info {
+                    align-self: center;
+                }
+            }
+        }
+        .tt_doctor_block {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-width: 340px;
+            height: 100%;
+            margin: 0 auto;
+            border: 1px solid $thin-grey;
+            background: $light-grey;
+            box-shadow: 0 10px 18.6px 1.4px rgba(0, 0, 0, 0.07);
+
+            .tt_doctor_link {
+                width: 100%;
+                max-width: 205px;
+                margin: 8px auto 0 auto;
+                text-align: center;
+
+                a {
+                    font-family: $brandon_medium;
+                    font-size: 18px;
+                    display: block;
+                    margin: 0 5px;
+                    padding: 12px 0;
+                    transition: 0.5s;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $white;
+                    border-radius: 10px;
+                    box-shadow: none;
+                }
+            }
+
+            .tt_doctor_info {
+                padding: 0 5px 25px 5px;
+            }
+
+            .tt_doctor_img img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            a:hover img {
+                background: none;
+            }
+
+            .tt_doctor_name {
+                font-weight: normal;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+            .tt_doctor_condition {
+                font-family: $brandon_light_italic;
+                display: block;
+                text-align: center;
+            }
+
+            .tt_loc_departments, .tt_loc_hours, .tt_loc_phones {
+                .tt_loc_content {
+                    padding: 15px 20px;
+                    background: $white;
+                }
+            }
+        }
+
+        .tt_single_doctor .tt_days,
+        .tt_single_location .tt_days {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 5px 0;
+
+            p {
+                font-family: $brandon_medium;
+                width: 20%;
+                margin: 0;
+                padding: 0;
+            }
+
+            span {
+                display: block;
+                width: 80%;
+                margin-right: 0;
+                margin-left: auto;
+                padding-left: 10px;
+            }
+        }
+
+        /**TABS**/
+        ul.tt_tabs {
+            font-size: 0;
+            margin: 0 !important;
+            padding: 0 25px !important;
+            list-style: none;
+
+            li {
+                font-family: $brandon_medium;
+                font-size: 20px;
+                line-height: 20px;
+                display: inline-block;
+                margin: 0;
+                padding: 15px;
+                list-style: none;
+                cursor: pointer;
+                color: $black;
+                border-bottom: none;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                background-color: $light-grey;
+
+                &:before {
+                    content: none;
+                }
+
+                &.current {
+                    color: $black;
+                    background-color: $white;
+                }
+            }
+        }
+
+        .tt_loc_block {
+            padding: 20px;
+            background: $white;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .tt_loc_departments a {
+            margin: 0 0 10px;
+            padding: 5px 0;
+        }
+
+        .tt_tab-content {
+            display: none;
+            margin: 0 25px;
+            padding: 30px 25px;
+            background: $white;
+
+            &.current {
+                display: inherit;
+            }
+
+            ul {
+                margin: 0 25px;
+            }
+        }
+
+        .tt_m_bottom {
+            margin-bottom: 15px !important;
+        }
+
+        .tt_loc_inner,
+        .tt_doc_inner {
+            padding-top: 30px;
+            width: 100%;
+        }
+
+        .tt_doctor_name {
+            font-family: $brandon_bold;
+            padding-top: 15px;
+        }
+
+        .tt_loc_hours {
+            margin-top: 20px;
+
+            h5 {
+                font-family: $brandon_bold;
+                font-size: 24px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    .tt_get_directions {
+        font-family: $brandon_bold;
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 5px;
+        padding: 6px 6px;
+        transition: 0.5s all;
+        text-decoration: none;
+        color: $white;
+        border-radius: 10px;
+        box-shadow: none;
+
+        i {
+            margin-left: 4px;
+        }
+    }
+
+    // schedule block
+    .tt_schedule_block {
+        margin-top: 24px;
+        padding: 30px 20px;
+        border-radius: 30px;
+
+        p {
+            font-family: $brandon_light;
+            margin-bottom: 15px;
+            padding: 0;
+        }
+    }
+
+    .tt_schedule,
+    .tt_schedule_block,
+    .doctor_main_info {
+        .tt_schedule_link {
+            font-family: $brandon_bold;
+            font-size: 21px;
+            font-weight: normal;
+            line-height: 1;
+            display: inline-block;
+            padding: 11px 20px;
+            transition: 0.5s all;
+            text-align: center;
+            text-decoration: none;
+            color: $white;
+            border-radius: 10px;
+
+            i {
+                margin-left: 4px;
+            }
+        }
+    }
+
+    .tt_one_col {
+        .tt_doctor_block {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            max-width: 600px;
+            border-radius: 0;
+        }
+
+        .tt_doctor_info {
+            width: 50%;
+            padding: 60px 20px;
+
+            &:before {
+                position: absolute;
+                height: 0;
+                content: none;
+            }
+        }
+
+        .tt_doctor_img {
+            width: 50%;
+        }
+
+        @media (max-width: $sm1-breakpoint) {
+            .tt_doctor_block {
+                display: block;
+                width: 100%;
+                max-width: 340px;
+                height: auto;
+                border-bottom-right-radius: 15px;
+                border-bottom-left-radius: 15px;
+            }
+
+            .tt_doctor_img {
+                width: 100%;
+            }
+
+            .tt_doctor_info {
+                width: 100%;
+                padding: 0 0 35px 0;
+            }
+        }
+    }
+
+    @media (max-width: $lg-breakpoint) {
+        ul.tt_tabs li {
+            font-size: 18px;
+            line-height: 18px;
+            padding: 12px 8px;
+        }
+
+        .tt_schedule_link {
+            font-size: 20px;
+        }
+    }
+
+    @media (width: $iPad-pro-breakpoint) {
+        .tt_list_item .tt_get_directions,
+        .tt_location_info .tt_location_link a {
+            font-size: 22px !important;
+        }
+    }
+
+    @media (max-width: $md-breakpoint) {
+        .tt_get_directions {
+            font-size: 18px !important;
+            display: block;
+            max-width: 200px;
+            margin: 0 auto !important;
+            padding: 8px 8px;
+            text-align: center;
+        }
+
+        .tt_order_1 {
+            order: 1;
+        }
+
+        .tt_schedule {
+            display: none;
+        }
+
+        .tt_content {
+            ul.tt_tabs {
+                margin-top: 30px !important;
+
+                li {
+                    font-size: 25px;
+                    line-height: 25px;
+                    display: block;
+                    padding: 15px 15px;
+                    border-radius: inherit;
+                }
+            }
+
+            .tt_loc_address {
+                margin-left: 0;
+
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                }
+            }
+
+            .tt_loc_name {
+                text-align: center;
+
+                .tt_loc_name_text {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: $sm-breakpoint) {
+        .tt_content {
+            .tt_tab-content {
+                margin: 0;
+            }
+
+            ul.tt_tabs {
+                padding: 0 !important;
+            }
+        }
+    }
+
+    @media (max-width: $sm1-breakpoint) {
+        .tt_one_col {
+            .tt_doctor_block {
+                display: block;
+                width: 100%;
+                max-width: 340px;
+                height: auto;
+                border-bottom-right-radius: 15px;
+                border-bottom-left-radius: 15px;
+            }
+
+            .tt_doctor_img {
+                width: 100%;
+            }
+
+            .tt_doctor_info {
+                width: 100%;
+                padding: 0 0 35px 0;
+            }
+        }
+
+        .tt_content {
+            .tt_tab-content {
+                padding: 15px;
+            }
+
+            ul.tt_tabs li {
+                font-size: 21px;
+                padding: 15px;
+            }
+        }
+    }
+
+    @media (max-width: $xs-breakpoint) {
+        .tt_get_directions {
+            max-width: 200px;
+        }
+    }
+}
+
+.widget_text {
+    .tt_main_page {
+        padding-bottom: 0;
+    }
+}
+
+/**TABS ACCORDION**/
+.tt_tabs_accordions {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 25px;
+    transition: all .2s;
+
+    .tt_tab-link {
+        font-family: $brandon_medium;
+        font-size: 20px;
+        line-height: 20px;
+        position: relative;
+        display: flex;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 15px 50px 15px 15px;
+        list-style: none;
+        cursor: pointer;
+        color: $black;
+        border-bottom: none;
+        background-color: $light-grey;
+        @media (min-width: $md-breakpoint) {
+            flex: 0 0 auto;
+            order: 0;
+            width: auto;
+            max-width: 100%;
+
+            padding: 15px;
+            border-bottom: none;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            &:before {
+                display: none !important;
+            }
+        }
+
+        &:before {
+            font-family: FontAwesome, sans-serif;
+            position: absolute;
+            top: 50%;
+            right: 30px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: -10px;
+            content: "\f107";
+            transition: all .2s;
+            text-align: center;
+        }
+
+        &.current {
+            color: $black;
+            background-color: $white;
+
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .tt_tab-content-wrap {
+
+        display: flex;
+        flex: 0 0 100%;
+        flex-flow: row wrap;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        @media (min-width: $md-breakpoint) {
+            order: 99;
+        }
+
+        &:not(.current) {
+            display: none;
+        }
+
+        .tt_tab-content {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+
+}

@@ -1,0 +1,1522 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Triage Trak\n"
+"POT-Creation-Date: 2020-07-24 09:43+0300\n"
+"PO-Revision-Date: 2019-11-22 11:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-triage-trak-admin.php:110
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:771
+msgid "Settings"
+msgstr ""
+
+#: admin/class-triage-trak-admin.php:200
+#: admin/view/admin/triage-trak-admin-display.php:27
+msgid "Authentication"
+msgstr ""
+
+#: admin/class-triage-trak-admin.php:202
+#: admin/view/admin/triage-trak-import-display.php:26
+msgid "Import"
+msgstr ""
+
+#: admin/controller/class-import-changes-triage-trak.php:52
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: admin/controller/class-pull-data-triag-trak.php:50
+msgid "No data found"
+msgstr ""
+
+#: admin/controller/class-pull-data-triag-trak.php:61
+msgid "Please login to WebSitter Pro"
+msgstr ""
+
+#: admin/custom-styles/dynamic-styles.php:42
+msgid ""
+"Note that writing permissions aren't set for folders containing css and js "
+"files on your server.\n"
+"\t\t\t\t\tWe recommend setting writing permissions in order to optimize your "
+"site performance.\n"
+"\t\t\t\t\tIf writing permissions aren't set for folders containing CSS files "
+"on your server, \n"
+"\t\t\t\t\tyou will see a warning message at the top of the theme options "
+"page. "
+msgstr ""
+
+#: admin/custom-styles/dynamic-styles.php:46
+msgid ""
+"In order to remove that message, \n"
+"\t\t\t\t\tyou need to change permissions for the wp-content/plugin/"
+"triagetrak/public/css folders and set them to 755. \n"
+"\t\t\t\t\tWe recommend setting writing permissions in order to optimize your "
+"site performance. \n"
+"\t\t\t\t\tIf you have any issues with this, please contact your hosting "
+"service provider."
+msgstr ""
+
+#: admin/exopite-simple-options/assets/editors/ace/worker-coffee.js:1
+msgid "arguments"
+msgstr ""
+
+#: admin/exopite-simple-options/assets/editors/ace/worker-coffee.js:1
+msgid "RegExp"
+msgstr ""
+
+#: admin/exopite-simple-options/assets/editors/ace/worker-coffee.js:1
+msgid "Math"
+msgstr ""
+
+#: admin/exopite-simple-options/assets/jquery.fine-uploader.min.js:3
+msgid " request for "
+msgstr ""
+
+#: admin/exopite-simple-options/assets/jquery.fine-uploader.min.js:3
+msgid "Sending "
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:748
+msgid "Authorization"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:835
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:839
+msgid "Plugin Options"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1532
+msgid "ERROR:"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1533
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1607
+msgid "Saving..."
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1607
+msgid "Saved Successfully."
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1621
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1637
+msgid "Save Settings"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/attached.php:45
+#, php-format
+msgid "There is no attachment with type %s for this %s."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:41
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:42
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:42
+msgid "Import a Backup"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:46
+msgid "Download Backup"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:49
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:50
+msgid "Are you sure, you want to reset all options?"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:50
+msgid "Reset All Options"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/font.php:65
+msgid "Select a Font"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/font.php:69
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/font.php:87
+msgid "Select a Style"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/font.php:99
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/gallery.php:25
+msgid "Add to gallery"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/gallery.php:26
+msgid "Select images for gallery"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/gallery.php:27
+msgid "Add"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/group.php:351
+msgid "Max items:"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:73
+msgid "Drop files here"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:83
+msgid "Select files"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:86
+msgid "Upload"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:90
+msgid "Processing dropped files..."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:108
+#: admin/exopite-simple-options/fields/upload.php:140
+#: admin/view/admin/triage-trak-admin-display.php:80
+msgid "Cancel"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:110
+msgid "Retry"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:112
+msgid "Delete"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:121
+msgid "Close"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:129
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:340
+msgid "No"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:131
+#: admin/shortcodes/doctors-list/doctors-list.php:161
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:338
+#: admin/shortcodes/locations-list/locations-list.php:132
+msgid "Yes"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:142
+msgid "Ok"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max amount of files: "
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Max file upload size: "
+msgstr ""
+
+#: admin/exopite-simple-options/fields/video.php:74
+msgid "Add Video"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:16
+msgid "Doctor Page"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:22
+msgid ""
+"Add schedule link and descriptions if you need to activate schedule block on "
+"a doctor page"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:27
+msgid "Schedule Link"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:32
+msgid "Schedule Descriptions"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:33
+msgid ""
+"If you'd like to schedule an appointment, follow the link below and login to "
+"our Patient Portal. There you will be able to manage all of your "
+"appointments. "
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:38
+msgid "Doctor Photo"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:46
+#: admin/option-fields/location-options.php:35
+msgid "Border Radius"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:59
+msgid "Doctor Photo Border"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:60
+#: admin/option-fields/doctor-options.php:176
+#: admin/option-fields/doctors-filter-options.php:82
+#: admin/option-fields/doctors-list-options.php:50
+#: admin/option-fields/doctors-list-options.php:209
+#: admin/option-fields/location-options.php:49
+#: admin/option-fields/location-options.php:165
+#: admin/option-fields/locations-filter-options.php:72
+#: admin/option-fields/locations-list-options.php:50
+#: admin/option-fields/locations-list-options.php:207
+msgid ""
+"E.g.: use for border, but can be used for many things, link dimensions or "
+"spacing, etc..."
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:71
+#: admin/option-fields/doctor-options.php:187
+#: admin/option-fields/doctors-filter-options.php:93
+#: admin/option-fields/doctors-list-options.php:62
+#: admin/option-fields/doctors-list-options.php:220
+#: admin/option-fields/location-options.php:60
+#: admin/option-fields/location-options.php:176
+#: admin/option-fields/locations-filter-options.php:83
+#: admin/option-fields/locations-list-options.php:61
+#: admin/option-fields/locations-list-options.php:218
+msgid "top"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:82
+#: admin/option-fields/doctor-options.php:198
+#: admin/option-fields/doctors-filter-options.php:103
+#: admin/option-fields/doctors-list-options.php:73
+#: admin/option-fields/doctors-list-options.php:230
+#: admin/option-fields/location-options.php:71
+#: admin/option-fields/location-options.php:187
+#: admin/option-fields/locations-filter-options.php:93
+#: admin/option-fields/locations-list-options.php:72
+#: admin/option-fields/locations-list-options.php:228
+msgid "bottom"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:93
+#: admin/option-fields/doctor-options.php:209
+#: admin/option-fields/doctors-filter-options.php:113
+#: admin/option-fields/doctors-list-options.php:84
+#: admin/option-fields/doctors-list-options.php:240
+#: admin/option-fields/location-options.php:82
+#: admin/option-fields/location-options.php:198
+#: admin/option-fields/locations-filter-options.php:103
+#: admin/option-fields/locations-list-options.php:83
+#: admin/option-fields/locations-list-options.php:238
+msgid "left"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:104
+#: admin/option-fields/doctor-options.php:220
+#: admin/option-fields/doctors-filter-options.php:123
+#: admin/option-fields/doctors-list-options.php:95
+#: admin/option-fields/doctors-list-options.php:250
+#: admin/option-fields/location-options.php:93
+#: admin/option-fields/location-options.php:209
+#: admin/option-fields/locations-filter-options.php:113
+#: admin/option-fields/locations-list-options.php:94
+#: admin/option-fields/locations-list-options.php:248
+msgid "right"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:113
+#: admin/option-fields/doctor-options.php:229
+#: admin/option-fields/doctors-filter-options.php:131
+#: admin/option-fields/doctors-list-options.php:104
+#: admin/option-fields/doctors-list-options.php:258
+#: admin/option-fields/location-options.php:102
+#: admin/option-fields/location-options.php:218
+#: admin/option-fields/locations-filter-options.php:121
+#: admin/option-fields/locations-list-options.php:103
+#: admin/option-fields/locations-list-options.php:256
+msgid "None"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:114
+#: admin/option-fields/doctor-options.php:230
+#: admin/option-fields/doctors-filter-options.php:132
+#: admin/option-fields/doctors-list-options.php:105
+#: admin/option-fields/doctors-list-options.php:259
+#: admin/option-fields/location-options.php:103
+#: admin/option-fields/location-options.php:219
+#: admin/option-fields/locations-filter-options.php:122
+#: admin/option-fields/locations-list-options.php:104
+#: admin/option-fields/locations-list-options.php:257
+msgid "Solid"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:115
+#: admin/option-fields/doctor-options.php:231
+#: admin/option-fields/doctors-filter-options.php:133
+#: admin/option-fields/doctors-list-options.php:106
+#: admin/option-fields/doctors-list-options.php:260
+#: admin/option-fields/location-options.php:104
+#: admin/option-fields/location-options.php:220
+#: admin/option-fields/locations-filter-options.php:123
+#: admin/option-fields/locations-list-options.php:105
+#: admin/option-fields/locations-list-options.php:258
+msgid "Dashed"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:116
+#: admin/option-fields/doctor-options.php:232
+#: admin/option-fields/doctors-filter-options.php:134
+#: admin/option-fields/doctors-list-options.php:107
+#: admin/option-fields/doctors-list-options.php:261
+#: admin/option-fields/location-options.php:105
+#: admin/option-fields/location-options.php:221
+#: admin/option-fields/locations-filter-options.php:124
+#: admin/option-fields/locations-list-options.php:106
+#: admin/option-fields/locations-list-options.php:259
+msgid "Dotted"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:117
+#: admin/option-fields/doctor-options.php:233
+#: admin/option-fields/doctors-filter-options.php:135
+#: admin/option-fields/doctors-list-options.php:108
+#: admin/option-fields/doctors-list-options.php:262
+#: admin/option-fields/location-options.php:106
+#: admin/option-fields/location-options.php:222
+#: admin/option-fields/locations-filter-options.php:125
+#: admin/option-fields/locations-list-options.php:107
+#: admin/option-fields/locations-list-options.php:260
+msgid "Double"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:118
+#: admin/option-fields/doctor-options.php:234
+#: admin/option-fields/doctors-filter-options.php:136
+#: admin/option-fields/doctors-list-options.php:109
+#: admin/option-fields/doctors-list-options.php:263
+#: admin/option-fields/location-options.php:107
+#: admin/option-fields/location-options.php:223
+#: admin/option-fields/locations-filter-options.php:126
+#: admin/option-fields/locations-list-options.php:108
+#: admin/option-fields/locations-list-options.php:261
+msgid "Inset"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:119
+#: admin/option-fields/doctor-options.php:235
+#: admin/option-fields/doctors-filter-options.php:137
+#: admin/option-fields/doctors-list-options.php:110
+#: admin/option-fields/doctors-list-options.php:264
+#: admin/option-fields/location-options.php:108
+#: admin/option-fields/location-options.php:224
+#: admin/option-fields/locations-filter-options.php:127
+#: admin/option-fields/locations-list-options.php:109
+#: admin/option-fields/locations-list-options.php:262
+msgid "Outset"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:120
+#: admin/option-fields/doctor-options.php:236
+#: admin/option-fields/doctors-filter-options.php:138
+#: admin/option-fields/doctors-list-options.php:111
+#: admin/option-fields/doctors-list-options.php:265
+#: admin/option-fields/location-options.php:109
+#: admin/option-fields/location-options.php:225
+#: admin/option-fields/locations-filter-options.php:128
+#: admin/option-fields/locations-list-options.php:110
+#: admin/option-fields/locations-list-options.php:263
+msgid "Groove"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:121
+#: admin/option-fields/doctor-options.php:237
+#: admin/option-fields/doctors-filter-options.php:139
+#: admin/option-fields/doctors-list-options.php:112
+#: admin/option-fields/doctors-list-options.php:266
+#: admin/option-fields/location-options.php:110
+#: admin/option-fields/location-options.php:226
+#: admin/option-fields/locations-filter-options.php:129
+#: admin/option-fields/locations-list-options.php:111
+#: admin/option-fields/locations-list-options.php:264
+msgid "ridge"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:138
+msgid "Doctor Title Section"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:148
+msgid "Doctor Content Section"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:158
+msgid "Doctor Sub Text"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:168
+msgid "Doctor Card Info Background Color"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:175
+msgid "Doctor Card Info Border"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:254
+msgid "Doctor Card Info Border Radius"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:265
+#: admin/option-fields/doctors-filter-options.php:167
+#: admin/option-fields/doctors-list-options.php:141
+#: admin/option-fields/doctors-list-options.php:294
+#: admin/option-fields/location-options.php:254
+#: admin/option-fields/locations-filter-options.php:157
+#: admin/option-fields/locations-list-options.php:139
+#: admin/option-fields/locations-list-options.php:291
+msgid "top-left "
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:276
+#: admin/option-fields/doctors-filter-options.php:178
+#: admin/option-fields/doctors-list-options.php:152
+#: admin/option-fields/doctors-list-options.php:305
+#: admin/option-fields/location-options.php:265
+#: admin/option-fields/locations-filter-options.php:168
+#: admin/option-fields/locations-list-options.php:150
+#: admin/option-fields/locations-list-options.php:302
+msgid "top-right "
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:287
+#: admin/option-fields/doctors-filter-options.php:189
+#: admin/option-fields/doctors-list-options.php:163
+#: admin/option-fields/doctors-list-options.php:316
+#: admin/option-fields/location-options.php:276
+#: admin/option-fields/locations-filter-options.php:179
+#: admin/option-fields/locations-list-options.php:161
+#: admin/option-fields/locations-list-options.php:313
+msgid "bottom-left"
+msgstr ""
+
+#: admin/option-fields/doctor-options.php:298
+#: admin/option-fields/doctors-filter-options.php:200
+#: admin/option-fields/doctors-list-options.php:174
+#: admin/option-fields/doctors-list-options.php:327
+#: admin/option-fields/location-options.php:287
+#: admin/option-fields/locations-filter-options.php:190
+#: admin/option-fields/locations-list-options.php:172
+#: admin/option-fields/locations-list-options.php:324
+msgid "bottom-right"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:16
+msgid "Doctors Filter"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:23
+#: admin/option-fields/locations-filter-options.php:23
+msgid "Choose Options for Filter"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:25
+msgid "Doctors"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:26
+msgid "Languages"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:27
+msgid "Body Parts"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:28
+#: admin/option-fields/locations-filter-options.php:25
+#: admin/shortcodes/locations-list/templates/single-location.php:151
+#: admin/widgets/search-bar/search-functions.php:65
+msgid "Departments"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:29
+msgid "Sub Specialty"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:30
+#: admin/shortcodes/locations-list/templates/single-location.php:249
+#: admin/widgets/search-bar/search-functions.php:77
+msgid "Conditions"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:31
+#: admin/shortcodes/locations-list/templates/single-location.php:240
+#: admin/widgets/search-bar/search-functions.php:89
+msgid "Procedures"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:32
+msgid "Insurances"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:33
+msgid "Injury Types"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:34
+msgid "Patient Ages"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:35
+#: admin/option-fields/locations-filter-options.php:26
+msgid "Zip Code"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:36
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:35
+msgid "Accepting New Patients"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:47
+#: admin/option-fields/locations-filter-options.php:37
+msgid "Filter Typography"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:57
+#: admin/option-fields/doctors-list-options.php:194
+#: admin/option-fields/locations-filter-options.php:57
+msgid "Button Background"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:64
+#: admin/option-fields/doctors-list-options.php:201
+#: admin/option-fields/locations-filter-options.php:64
+msgid "Button Second Background"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:71
+#: admin/option-fields/doctors-list-options.php:184
+#: admin/option-fields/locations-filter-options.php:47
+#: admin/option-fields/locations-list-options.php:182
+msgid "Button Typography"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:81
+#: admin/option-fields/doctors-list-options.php:208
+#: admin/option-fields/locations-filter-options.php:71
+#: admin/option-fields/locations-list-options.php:206
+msgid "Button Border"
+msgstr ""
+
+#: admin/option-fields/doctors-filter-options.php:155
+#: admin/option-fields/doctors-list-options.php:282
+#: admin/option-fields/locations-filter-options.php:145
+#: admin/option-fields/locations-list-options.php:280
+msgid "Button Border Radius"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:16
+msgid "Our Team"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:22
+msgid "Doctors Typography"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:32
+msgid "Doctors Credential"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:42
+msgid "Doctor Card Background Color"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:49
+msgid "Doctor Card Border"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:130
+msgid "Doctor Card Border Radius"
+msgstr ""
+
+#: admin/option-fields/doctors-list-options.php:337
+#: admin/option-fields/locations-list-options.php:334
+msgid "Inline Styles"
+msgstr ""
+
+#: admin/option-fields/general-options.php:16
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:251
+#: admin/shortcodes/locations-list/templates/single-location.php:184
+#: admin/view/modals/doctors-shortcode-form.php:18
+#: admin/view/modals/locations-shortcode-form.php:13
+msgid "General"
+msgstr ""
+
+#: admin/option-fields/general-options.php:23
+msgid "Generate Doctors List Shortcode"
+msgstr ""
+
+#: admin/option-fields/general-options.php:38
+msgid "Generate Locations List Shortcode"
+msgstr ""
+
+#: admin/option-fields/general-options.php:53
+msgid "Generate Departments List Shortcode"
+msgstr ""
+
+#: admin/option-fields/general-options.php:68
+msgid ""
+"Please use both shortcodes for <b>Doctors</b> and <b>Locations</b> as they "
+"are dependent on each other and have links for redirects"
+msgstr ""
+
+#: admin/option-fields/general-options.php:73
+msgid "General Fonts"
+msgstr ""
+
+#: admin/option-fields/location-options.php:16
+msgid "Location Page"
+msgstr ""
+
+#: admin/option-fields/location-options.php:22
+msgid "Schedule link"
+msgstr ""
+
+#: admin/option-fields/location-options.php:27
+msgid "Location Photo"
+msgstr ""
+
+#: admin/option-fields/location-options.php:48
+msgid "Location Photo Border"
+msgstr ""
+
+#: admin/option-fields/location-options.php:127
+msgid "Location Main Title"
+msgstr ""
+
+#: admin/option-fields/location-options.php:137
+msgid "Location Title Section"
+msgstr ""
+
+#: admin/option-fields/location-options.php:147
+msgid "Location Content Section"
+msgstr ""
+
+#: admin/option-fields/location-options.php:157
+msgid "Location Card Info Background Color"
+msgstr ""
+
+#: admin/option-fields/location-options.php:164
+msgid "Location Card Info Border"
+msgstr ""
+
+#: admin/option-fields/location-options.php:243
+msgid "Location Card Info Border Radius"
+msgstr ""
+
+#: admin/option-fields/locations-filter-options.php:16
+msgid "Locations Filter"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:16
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:118
+msgid "Locations"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:22
+msgid "Locations Title"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:32
+msgid "Locations Typography"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:42
+msgid "Location Card Background Color"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:49
+msgid "Location Card Border"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:128
+msgid "Location Card Border Radius"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:192
+msgid "Location Button Background"
+msgstr ""
+
+#: admin/option-fields/locations-list-options.php:199
+msgid "Location Button Second Background"
+msgstr ""
+
+#: admin/option-fields/plugin-info-options.php:16
+msgid "Plugin Information"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:36
+msgid "Departments List"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:37
+msgid "Place WebSitter Pro departments list"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:39
+#: admin/shortcodes/doctors-list/doctors-list.php:40
+#: admin/shortcodes/locations-list/locations-list.php:39
+msgid "by WebSitter Pro"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:44
+#: admin/shortcodes/doctors-list/doctors-list.php:131
+#: admin/shortcodes/locations-list/locations-list.php:80
+#: admin/view/modals/departments-shortcode-form.php:15
+#: admin/view/modals/doctors-shortcode-form.php:116
+#: admin/view/modals/locations-shortcode-form.php:64
+msgid "Extra class name"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:46
+#: admin/shortcodes/doctors-list/doctors-list.php:133
+#: admin/shortcodes/locations-list/locations-list.php:82
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:51
+#: admin/view/modals/departments-shortcode-form.php:34
+msgid "Departments count"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:58
+#: admin/view/modals/departments-shortcode-form.php:21
+msgid "Link Target"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:61
+#: admin/view/modals/departments-shortcode-form.php:25
+msgid "Self"
+msgstr ""
+
+#: admin/shortcodes/departments-list/departments-list.php:62
+#: admin/view/modals/departments-shortcode-form.php:28
+msgid "Blank"
+msgstr ""
+
+#: admin/shortcodes/departments-list/templates/departments-list-template.php:22
+#: admin/shortcodes/doctors-list/templates/doctors-content-template.php:47
+#: admin/shortcodes/doctors-list/templates/taxonomy.php:46
+msgid "No Doctors!"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:37
+msgid "Doctors List"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:38
+msgid "Place WebSitter Pro doctors list"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:46
+#: admin/shortcodes/locations-list/locations-list.php:45
+#: admin/view/modals/doctors-shortcode-form.php:32
+#: admin/view/modals/locations-shortcode-form.php:24
+msgid "List Type"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:49
+#: admin/view/modals/doctors-shortcode-form.php:36
+msgid "Doctors list with photo"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:50
+#: admin/view/modals/doctors-shortcode-form.php:39
+msgid "Doctors list with photo (small)"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:59
+#: admin/shortcodes/locations-list/locations-list.php:58
+#: admin/view/modals/doctors-shortcode-form.php:45
+#: admin/view/modals/locations-shortcode-form.php:37
+msgid "Number of Cards Per Page"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:67
+#: admin/shortcodes/locations-list/locations-list.php:66
+#: admin/view/modals/doctors-shortcode-form.php:51
+#: admin/view/modals/locations-shortcode-form.php:43
+msgid "Number of Grid Columns"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:70
+#: admin/shortcodes/locations-list/locations-list.php:69
+#: admin/view/modals/doctors-shortcode-form.php:55
+#: admin/view/modals/locations-shortcode-form.php:47
+msgid "Four columns"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:71
+#: admin/shortcodes/locations-list/locations-list.php:70
+#: admin/view/modals/doctors-shortcode-form.php:58
+#: admin/view/modals/locations-shortcode-form.php:50
+msgid "Three columns"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:72
+#: admin/shortcodes/locations-list/locations-list.php:71
+#: admin/view/modals/doctors-shortcode-form.php:61
+#: admin/view/modals/locations-shortcode-form.php:53
+msgid "Two columns"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:73
+#: admin/shortcodes/locations-list/locations-list.php:72
+#: admin/view/modals/doctors-shortcode-form.php:64
+#: admin/view/modals/locations-shortcode-form.php:56
+msgid "One column"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:83
+#: admin/view/modals/doctors-shortcode-form.php:72
+msgid "Choose departments to filter the list"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:87
+#: admin/shortcodes/doctors-list/doctors-list.php:95
+#: admin/shortcodes/doctors-list/doctors-list.php:103
+#: admin/shortcodes/doctors-list/doctors-list.php:114
+#: admin/shortcodes/doctors-list/doctors-list.php:124
+#: admin/shortcodes/locations-list/locations-list.php:83
+#: admin/shortcodes/locations-list/locations-list.php:93
+#: admin/shortcodes/locations-list/locations-list.php:104
+#: admin/shortcodes/locations-list/locations-list.php:114
+#: admin/shortcodes/locations-list/locations-list.php:125
+#: admin/shortcodes/locations-list/locations-list.php:136
+#: admin/shortcodes/locations-list/locations-list.php:147
+#: admin/shortcodes/locations-list/locations-list.php:157
+#: admin/view/modals/doctors-shortcode-form.php:21
+#: admin/view/modals/locations-shortcode-form.php:16
+msgid "Section Settings"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:91
+#: admin/view/modals/doctors-shortcode-form.php:82
+msgid "Choose conditions to filter the list"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:99
+#: admin/view/modals/doctors-shortcode-form.php:92
+msgid "Choose procedures to filter the list"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:108
+#: admin/shortcodes/locations-list/locations-list.php:98
+#: admin/view/modals/doctors-shortcode-form.php:103
+#: admin/view/modals/locations-shortcode-form.php:77
+msgid "Show Paginate"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:110
+#: admin/shortcodes/doctors-list/doctors-list.php:121
+#: admin/shortcodes/doctors-list/doctors-list.php:141
+#: admin/shortcodes/doctors-list/doctors-list.php:151
+#: admin/shortcodes/locations-list/locations-list.php:90
+#: admin/shortcodes/locations-list/locations-list.php:100
+#: admin/shortcodes/locations-list/locations-list.php:111
+#: admin/shortcodes/locations-list/locations-list.php:122
+#: admin/shortcodes/locations-list/locations-list.php:144
+#: admin/shortcodes/locations-list/locations-list.php:154
+msgid "Show"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:119
+#: admin/shortcodes/locations-list/locations-list.php:109
+#: admin/view/modals/doctors-shortcode-form.php:109
+#: admin/view/modals/locations-shortcode-form.php:83
+msgid "Show Filter"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:134
+#: admin/shortcodes/doctors-list/doctors-list.php:144
+#: admin/shortcodes/doctors-list/doctors-list.php:154
+#: admin/shortcodes/doctors-list/doctors-list.php:165
+#: admin/view/modals/doctors-shortcode-form.php:24
+msgid "Card Settings"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:139
+#: admin/shortcodes/locations-list/locations-list.php:152
+#: admin/view/modals/doctors-shortcode-form.php:123
+#: admin/view/modals/locations-shortcode-form.php:107
+msgid "Show Link Button"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:149
+#: admin/view/modals/doctors-shortcode-form.php:129
+msgid "Show Doctor Conditions"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/doctors-list.php:159
+#: admin/view/modals/doctors-shortcode-form.php:135
+msgid "Limit Conditions"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:15
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:18
+msgid "Patient ages"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:41
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:44
+#: admin/shortcodes/locations-list/templates/location-filter-template.php:15
+#: admin/shortcodes/locations-list/templates/location-filter-template.php:18
+msgid "Search by Zip Code"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:57
+msgid "Filter Doctors"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/doctor-filter-template.php:59
+#: admin/shortcodes/locations-list/templates/location-filter-template.php:33
+msgid "Clear Search"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/doctors-content-template.php:39
+#: admin/shortcodes/doctors-list/templates/taxonomy.php:39
+#: admin/shortcodes/locations-list/templates/single-location.php:227
+msgid "View Profile"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:89
+msgid "Languages Spoken: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:109
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:236
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:242
+#: admin/shortcodes/locations-list/templates/single-location.php:162
+#: admin/shortcodes/locations-list/templates/single-location.php:166
+#: admin/shortcodes/locations-list/templates/single-location.php:177
+msgid "Schedule an Appointment"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:148
+msgid "Office Hours"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:156
+#: admin/shortcodes/locations-list/templates/single-location.php:88
+msgid "Mon: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:165
+#: admin/shortcodes/locations-list/templates/single-location.php:96
+msgid "Tue: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:174
+#: admin/shortcodes/locations-list/templates/single-location.php:104
+msgid "Wed: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:183
+#: admin/shortcodes/locations-list/templates/single-location.php:112
+msgid "Thu: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:192
+#: admin/shortcodes/locations-list/templates/single-location.php:120
+msgid "Fri: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:201
+#: admin/shortcodes/locations-list/templates/single-location.php:128
+msgid "Sat: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:210
+#: admin/shortcodes/locations-list/templates/single-location.php:136
+msgid "Sun: "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:221
+#: admin/shortcodes/locations-list/templates/locations-content-template.php:41
+#: admin/shortcodes/locations-list/templates/taxonomy.php:50
+msgid "View Location"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:255
+msgid "About "
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:275
+msgid "Sub Specialties:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:284
+msgid "Hospital Affiliations:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:293
+msgid "Education:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:304
+msgid "Awards:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:327
+msgid "Injury types treated:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:335
+msgid "Accepting New Patients:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:345
+msgid "Ages of Patients Treated:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:352
+msgid "Documents:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:371
+msgid "Procedures Conditions"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:376
+msgid "Procedures:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:386
+msgid "Conditions:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:399
+msgid "Publications"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:405
+msgid "Residency:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:415
+msgid "Internship:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:425
+msgid "Fellowship:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:435
+msgid "Certification:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:449
+msgid "Accepted Insurance"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:453
+msgid "Accepted Insurances:"
+msgstr ""
+
+#: admin/shortcodes/doctors-list/templates/single-doctor.php:462
+msgid "Insurance companies:"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:36
+msgid "Locations List"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:37
+msgid "Place WebSitter Pro locations list"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:48
+#: admin/view/modals/locations-shortcode-form.php:28
+msgid "Locations list with photo"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:49
+#: admin/view/modals/locations-shortcode-form.php:31
+msgid "Locations list with photo (small)"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:88
+#: admin/view/modals/locations-shortcode-form.php:71
+msgid "Show Map"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:120
+#: admin/view/modals/locations-shortcode-form.php:89
+msgid "Show Address"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:130
+#: admin/view/modals/locations-shortcode-form.php:95
+msgid "Limit Address"
+msgstr ""
+
+#: admin/shortcodes/locations-list/locations-list.php:142
+#: admin/view/modals/locations-shortcode-form.php:101
+msgid "Show Phone"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/location-filter-template.php:31
+msgid "Filter Locations"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/locations-content-template.php:50
+#: admin/shortcodes/locations-list/templates/taxonomy.php:58
+msgid "No Locations!"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/locations-list-template.php:34
+#: admin/shortcodes/locations-list/templates/single-location.php:58
+msgid "Get Directions"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/single-location.php:64
+msgid "Phone Number(s)"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/single-location.php:85
+msgid "Hours"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/single-location.php:188
+msgid "Procedures & Conditions"
+msgstr ""
+
+#: admin/shortcodes/locations-list/templates/single-location.php:198
+msgid "Doctors at "
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:30
+#: admin/view/admin/triage-trak-admin-display.php:59
+msgid "User login"
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:39
+msgid "User password"
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:47
+msgid "Api connect"
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:55
+msgid "Authentication Success"
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:63
+#: admin/view/admin/triage-trak-admin-display.php:78
+msgid "Logout"
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:71
+msgid "Are you sure you want to logout?"
+msgstr ""
+
+#: admin/view/admin/triage-trak-admin-display.php:74
+msgid ""
+"Be careful after logout all information about the doctors and locations will "
+"not be available!"
+msgstr ""
+
+#: admin/view/admin/triage-trak-import-display.php:22
+msgid "Import Your WebSitter Pro Data"
+msgstr ""
+
+#: admin/view/admin/triage-trak-import-display.php:35
+msgid "Data successfully imported"
+msgstr ""
+
+#: admin/view/admin/triage-trak-import-display.php:37
+msgid "doctors and"
+msgstr ""
+
+#: admin/view/admin/triage-trak-import-display.php:39
+msgid "locations"
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:4
+msgid ""
+"Thank you for choosing WebSitter Pro – the first software that helps patients, "
+"scheduling staff and referrers find the right doctor and the right service "
+"at the right location, from any device at any time."
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:5
+msgid "For more information on WebSitter Pro, please"
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:5
+msgid "visit our website."
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:6
+msgid "To purchase WebSitter Pro, please "
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:6
+#: admin/view/admin/triage-trak-info-display.php:7
+#: admin/view/admin/triage-trak-info-display.php:8
+msgid "click here."
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:7
+msgid "To update your account, please"
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:8
+msgid "To upgrade your number of licenses, please"
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:9
+msgid "Please visit"
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:9
+msgid "our support center"
+msgstr ""
+
+#: admin/view/admin/triage-trak-info-display.php:9
+msgid " for additional help with WebSitter Pro."
+msgstr ""
+
+#: admin/view/modals/departments-shortcode-form.php:9
+msgid "Departments List Shortcode"
+msgstr ""
+
+#: admin/view/modals/departments-shortcode-form.php:39
+#: admin/view/modals/doctors-shortcode-form.php:140
+#: admin/view/modals/locations-shortcode-form.php:112
+msgid "Show Shortcode"
+msgstr ""
+
+#: admin/view/modals/departments-shortcode-form.php:43
+msgid "Press the text with shortcode to copy Departments shortcode"
+msgstr ""
+
+#: admin/view/modals/doctors-shortcode-form.php:14
+msgid "Doctors List Shortcode"
+msgstr ""
+
+#: admin/view/modals/doctors-shortcode-form.php:144
+msgid "Press the text with shortcode to copy Doctors shortcode"
+msgstr ""
+
+#: admin/view/modals/locations-shortcode-form.php:9
+msgid "Locations List Shortcode"
+msgstr ""
+
+#: admin/view/modals/locations-shortcode-form.php:116
+msgid "Press the text with shortcode to copy Locations shortcode"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:23
+msgid " WebSitter Pro Search"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:24
+msgid "Shows search result by doctors and locations"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:49
+msgid "Search for..."
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:93
+msgid "Title:"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:102
+msgid " By Doctors"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:108
+msgid " By Locations"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:114
+msgid " By Departments"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:120
+msgid " By Conditions"
+msgstr ""
+
+#: admin/widgets/search-bar/search-bar.php:126
+msgid " By Procedures"
+msgstr ""
+
+#: admin/widgets/search-bar/search-functions.php:13
+msgid "No products found"
+msgstr ""
+
+#: admin/widgets/search-bar/search-functions.php:102
+msgid "View all results"
+msgstr ""
+
+#: admin/widgets/search-bar/search-functions.php:108
+msgid "No results "
+msgstr ""
+
+#: admin/widgets/search-bar/search.php:29
+msgid "Search Results Found For"
+msgstr ""
+
+#: admin/widgets/search-bar/search.php:59
+msgid "Read More"
+msgstr ""
+
+#: admin/widgets/search-bar/search.php:67
+msgid "No posts were found."
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:29
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:30
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:31
+#: includes/class-triage-trak-post-types.php:118
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:32
+#: includes/class-triage-trak-post-types.php:33
+#: includes/class-triage-trak-post-types.php:119
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:34
+#: includes/class-triage-trak-post-types.php:125
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:35
+#: includes/class-triage-trak-post-types.php:130
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:36
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:37
+#: includes/class-triage-trak-post-types.php:117
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:38
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:39
+#, php-format
+msgid "%s Attributes"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:40
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:41
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:44
+#: includes/class-triage-trak-post-types.php:123
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:45
+#: includes/class-triage-trak-post-types.php:124
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:120
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:121
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:122
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:126
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:127
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:128
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: includes/class-triage-trak-post-types.php:129
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""

@@ -1,0 +1,9 @@
+<?php
+
+return '<p style="text-align: left;"><img class="alignnone size-medium wp-image-9439" src="' . TRIAGE_TRAK_BASE_URL . 'admin/img/WebsitterLogo.png" alt="logo" width="300" height="100%" /></p>
+<p style="text-align: left;">'. __('Thank you for choosing WebSitter Pro – the first software that helps patients, scheduling staff and referrers find the right doctor and the right service at the right location, from any device at any time.', TRIAGE_TRAK_TEXT_DOMAIN) .'</p>
+<p style="text-align: left;">'. __('For more information on WebSitter Pro, please visit our ', TRIAGE_TRAK_TEXT_DOMAIN) .' <strong><a href="https://websitterpro.pointsgroup.com/" target="_blank" rel="noopener noreferrer">'. __('website.', TRIAGE_TRAK_TEXT_DOMAIN) .'</a></strong></p>
+<p style="text-align: left;">'. __('To purchase WebSitter Pro, please ', TRIAGE_TRAK_TEXT_DOMAIN) .'<strong><a href="https://websitterpro.pointsgroup.com/pricing-and-features/" target="_blank" rel="noopener noreferrer">'. __('click here.', TRIAGE_TRAK_TEXT_DOMAIN) .'</a></strong></p>
+<p style="text-align: left;">'. __('To update your account, please', TRIAGE_TRAK_TEXT_DOMAIN) .' <strong><a href="https://account.bboapps.com/login" target="_blank" rel=“noopener noreferrer">'. __('click here.', TRIAGE_TRAK_TEXT_DOMAIN) .'</a></strong></p>
+<p style="text-align: left;">'. __('To upgrade your number of licenses, please', TRIAGE_TRAK_TEXT_DOMAIN) .' <strong><a href="https://websitterpro.pointsgroup.com/pricing-and-features/" target="_blank" rel="noopener noreferrer">'. __('click here.', TRIAGE_TRAK_TEXT_DOMAIN) .'</a></strong></p>
+<p style="text-align: left;">'. __('Please visit our ', TRIAGE_TRAK_TEXT_DOMAIN) .' <strong><a href="https://websitterpro.pointsgroup.com/support/" target="_blank" rel="noopener noreferrer">'. __('support center', TRIAGE_TRAK_TEXT_DOMAIN) .'</a></strong>'. __(' for additional help with WebSitter Pro.', TRIAGE_TRAK_TEXT_DOMAIN) .'</p>';

@@ -1,0 +1,167 @@
+$nav-color: #83c2eb!default;
+$nav-color-hover: #2b427d !default;
+$nav-font-size: 40px !default;
+$nav-rounded: 3px !default;
+$nav-margin: 5px !default;
+$nav-padding: 10px 15px !default;
+$nav-background: rgba(#fff, .5) !default;
+$nav-background-hover: rgba(#fff, .8) !default;
+$nav-disabled-opacity: 0.3 !default;
+$base-box-shadow: 0px 10px 18.6px 1.4px rgba(0, 0, 0, 0.08);
+//dots
+
+$dot-width: 15px !default;
+$dot-height: 15px !default;
+$dot-rounded: 15px !default;
+$dot-padding-ver: 5px;
+$dot-padding-hor: 8px;
+$dot-background: #83c2eb !default;
+$dot-background-dark: rgba(#fff, .6) !default;
+$dot-background-active: #2b427d !default;
+$dot-background-active-dark: #fff !default;
+
+.tt_doc_slider{
+    .owl-nav {
+        box-sizing: border-box;
+        font-size: $nav-font-size;
+        position: absolute;
+        right: 0;
+        width: auto;
+        left: 0;
+        top: 50%;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        pointer-events: none;
+        z-index: 9;
+
+        .owl-prev,
+        .owl-next {
+            box-sizing: border-box;
+            z-index: 9;
+            position: absolute;
+            top: 0;
+            transform: translateY(-50%) scaleY(1.5);
+            transition: all .25s;
+            display: flex;
+            border-radius: 10px;
+            align-items: center;
+            margin: 0;
+            height: 60px;
+            opacity: .6;
+            justify-content: center;
+            padding: $nav-padding;
+            cursor: pointer;
+            //color: $nav-color;
+            box-shadow: $base-box-shadow;
+            pointer-events: auto;
+            font-weight: 100;
+
+            font-size: 50px;
+            background: $nav-background;
+
+            &:hover {
+                text-decoration: none;
+                opacity: 1;
+                //color: $nav-color-hover;
+                box-shadow: $base-box-shadow;
+                background: $nav-background-hover;
+            }
+        }
+
+        .owl-prev {
+            left: 20px;
+            //justify-content: flex-start;
+        }
+
+        .owl-next {
+            right: 20px;
+            //justify-content: flex-end;
+        }
+
+        .disabled {
+            display: none;
+            cursor: default;
+            opacity: $nav-disabled-opacity;
+
+            &:hover {
+                opacity: $nav-disabled-opacity;
+            }
+        }
+    }
+
+    // Styling dots
+
+    .owl-dots {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        margin-left: -$dot-padding-hor;
+        margin-right: -$dot-padding-hor;
+
+        .owl-dot {
+            box-shadow: none;
+            display: inline-block;
+            *display: inline;
+            zoom: 1;
+            border: 0;
+            outline: 0;
+            background: transparent;
+            padding: $dot-padding-ver $dot-padding-hor;
+
+            span {
+                display: block;
+                box-sizing: border-box;
+                width: $dot-width;
+                height: $dot-height;
+                margin: 0;
+                transition: all .25s;
+                border: 2px solid $dot-background;
+                border-radius: $dot-rounded;
+                -webkit-backface-visibility: visible;
+            }
+
+            &.active,
+            &:hover {
+                background: transparent;
+
+                span {
+                    border: 2px solid $dot-background-active;
+                }
+            }
+        }
+
+        &.dark .owl-dot {
+            span {
+                border: 2px solid $dot-background-dark;
+            }
+
+            &.active,
+            &:hover {
+                span {
+                    border: 2px solid $dot-background-active-dark;
+                }
+            }
+        }
+    }
+
+    .owl-theme {
+        position: relative;
+        // Styling Next and Prev buttons
+        .owl-nav {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+
+        .owl-dots {
+            position: absolute;
+            top: auto;
+            right: 0;
+            left: 0;
+            margin: 15px auto;
+        }
+    }
+}
+

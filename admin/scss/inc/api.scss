@@ -1,0 +1,89 @@
+@import "variables";
+
+body .tt_info_iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrap_api {
+  padding-top: 150px;
+
+  .tt_auto_logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .api_auto {
+    background: $white;
+    border-radius: 15px;
+    padding: 25px;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+
+    .api_col {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    label {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    input {
+      height: 40px;
+      width: 100%;
+      border-radius: 8px;
+      padding-left: 15px;
+      font-size: 16px;
+    }
+
+    .api_btn {
+      background-color: $green;
+      border: none;
+      color: $white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+
+  }
+
+  .exopite-sof-error {
+    font-size: 15px;
+    color: $red;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .success_notice {
+    padding: 20px;
+    border: 1px solid $green;
+    margin: 5px auto;
+    background: $light-green;
+    color: $dark-green;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 300px;
+  }
+
+}
+
+#tt_font_variant .chosen-container {
+  width: 200px !important;
+}
